@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Curriculum vitæ</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="https://printjs.crabbly.com/print.js"></script>
 </head>
-<body>
+<body id="main">
   <div id="header">
     <div class="profile">
       <img src="https://avatars.githubusercontent.com/u/104774504?v=4">
@@ -15,10 +16,10 @@
     <br>
     <table>
       <tr>
-        <td><div class="icon icon-url">URL</div><a href="https://samuellouf.github.io/">samuellouf.github.io</a></td>
+        <td><img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNi45MDg4MiIgaGVpZ2h0PSIyOC4xMzUxOCIgdmlld0JveD0iMCwwLDI2LjkwODgyLDI4LjEzNTE4Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjI2LjU0NTU5LC0xNjUuOTMyNDEpIj48ZyBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiPjxwYXRoIGQ9Ik0yNTIuNzA0NDEsMTc5Ljk2MDc5YzAsNy4wMjMwNyAtNS42ODc5NiwxMi43MTYzOSAtMTIuNzA0NDEsMTIuNzE2MzljLTcuMDE2NDUsMCAtMTIuNzA0NDEsLTUuNjkzMzIgLTEyLjcwNDQxLC0xMi43MTYzOWMwLC03LjAyMzA3IDUuNjg3OTYsLTEyLjcxNjM5IDEyLjcwNDQxLC0xMi43MTYzOWM3LjAxNjQ1LDAgMTIuNzA0NDEsNS42OTMzMiAxMi43MDQ0MSwxMi43MTYzOXoiIHN0cm9rZS1saW5lY2FwPSJidXR0Ii8+PHBhdGggZD0iTTIyNy44MDQ5OCwxODAuMjI3NjJoMjQuMzU4NzEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNDAuMDk4MTYsMTkzLjMxNzU5YzAsMCAtNi42NTgxNSwtMi45ODc0IC02LjQzMzM4LC0xMy4zMTM3OWMwLjI1MDg3LC0xMS41MjU0NSA2LjA5MTkxLC0xMi4yOTcwMSA2LjA5MTkxLC0xMi4yOTcwMWwwLjExMzgzLC0wLjY4Mjk1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMjQwLjE3MDc0LDE5My4xMDc2N2MwLDAgNS45NDY5OCwtMi4xODYyOSA2LjE5OTUzLC0xMi4xOTI2OWMwLjMxMzM2LC0xMi40MTU1OCAtNi41NDEwMSwtMTMuNDE4MTEgLTYuNTQxMDEsLTEzLjQxODExbDAuMTEzODMsLTAuNjgyOTUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNDAuNjA4MzcsMTkyLjk3NjE3bC0wLjM0MTQ4LC0yNS42MTA4bDAuMTEzODMsLTAuNjgyOTUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48L2c+PC9zdmc+PCEtLXJvdGF0aW9uQ2VudGVyOjEzLjQ1NDQwODAwNzU2ODc1OToxNC4wNjc1ODg5NjI5OTEwOTYtLT4=" class="icon"/><a href="https://samuellouf.github.io/">samuellouf.github.io</a></td>
       </tr>
       <tr>
-        <td><div class="icon icon-github">GitHub</div><a href="https://github.com/samuellouf/">samuellouf</a></td>
+        <td><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" class="icon"/><a href="https://github.com/samuellouf/">samuellouf</a></td>
       </tr>
     </table>
   </div>
@@ -39,9 +40,10 @@
     <h3 class="title">Skills</h3>
     <ul>
       <li><b class="uppercase">Programming languages</b> HTML, CSS, JavaScript, JSON, TypeScript, Python, Bash, Batch, Scratch.</li>
-      <li><b class="uppercase">Frameworks</b> jQuery, Node.js.</li>
+      <li><b class="uppercase">Frameworks</b> jQuery, Node.js, React.</li>
     </ul>
   </div>
+  <button onclick="print();" class="printbtn hideprint"><img src="./Antu_printer.svg" style="width: 3em;"/></button>
   <script src="mobile-detect.min.js"></script>
   <script src="script.js"></script>
 </body>

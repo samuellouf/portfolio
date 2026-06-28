@@ -16,6 +16,7 @@ body{
 
 body:not(.mobile) #header{
   display: flex;
+  justify-content: space-between;
 }
 
 .profile{
@@ -56,19 +57,9 @@ body.mobile #header .profile h1:first-of-type{
 }
 
 .icon{
-  width: 28px;
-  height: 28px;
-  background-size: 28px;
+  width: 2em;
+  height: 2em;
   color: transparent;
-  background-repeat: no-repeat;
-}
-
-.icon.icon-url {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyNi45MDg4MiIgaGVpZ2h0PSIyOC4xMzUxOCIgdmlld0JveD0iMCwwLDI2LjkwODgyLDI4LjEzNTE4Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjI2LjU0NTU5LC0xNjUuOTMyNDEpIj48ZyBmaWxsPSJub25lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiPjxwYXRoIGQ9Ik0yNTIuNzA0NDEsMTc5Ljk2MDc5YzAsNy4wMjMwNyAtNS42ODc5NiwxMi43MTYzOSAtMTIuNzA0NDEsMTIuNzE2MzljLTcuMDE2NDUsMCAtMTIuNzA0NDEsLTUuNjkzMzIgLTEyLjcwNDQxLC0xMi43MTYzOWMwLC03LjAyMzA3IDUuNjg3OTYsLTEyLjcxNjM5IDEyLjcwNDQxLC0xMi43MTYzOWM3LjAxNjQ1LDAgMTIuNzA0NDEsNS42OTMzMiAxMi43MDQ0MSwxMi43MTYzOXoiIHN0cm9rZS1saW5lY2FwPSJidXR0Ii8+PHBhdGggZD0iTTIyNy44MDQ5OCwxODAuMjI3NjJoMjQuMzU4NzEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNDAuMDk4MTYsMTkzLjMxNzU5YzAsMCAtNi42NTgxNSwtMi45ODc0IC02LjQzMzM4LC0xMy4zMTM3OWMwLjI1MDg3LC0xMS41MjU0NSA2LjA5MTkxLC0xMi4yOTcwMSA2LjA5MTkxLC0xMi4yOTcwMWwwLjExMzgzLC0wLjY4Mjk1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMjQwLjE3MDc0LDE5My4xMDc2N2MwLDAgNS45NDY5OCwtMi4xODYyOSA2LjE5OTUzLC0xMi4xOTI2OWMwLjMxMzM2LC0xMi40MTU1OCAtNi41NDEwMSwtMTMuNDE4MTEgLTYuNTQxMDEsLTEzLjQxODExbDAuMTEzODMsLTAuNjgyOTUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNDAuNjA4MzcsMTkyLjk3NjE3bC0wLjM0MTQ4LC0yNS42MTA4bDAuMTEzODMsLTAuNjgyOTUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvZz48L2c+PC9zdmc+PCEtLXJvdGF0aW9uQ2VudGVyOjEzLjQ1NDQwODAwNzU2ODc1OToxNC4wNjc1ODg5NjI5OTEwOTYtLT4=")
-}
-
-.icon.icon-github {
-  background-image: url("https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png");
 }
 
 h3.title {
@@ -91,4 +82,12 @@ h3.title {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.printbtn{
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  border: none;
+  background: none;
 }
